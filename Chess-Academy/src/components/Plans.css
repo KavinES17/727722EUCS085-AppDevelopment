@@ -1,0 +1,132 @@
+.plans {
+    padding: 40px;
+    background-size: cover;
+    background-image:url('https://i.pinimg.com/736x/9e/e8/d1/9ee8d17d50fb250f551a1be29d672e25.jpg');
+    background-position: center;
+    opacity: 80px;
+    text-align: center;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+  
+  
+  
+  
+  .intro {
+    font-size: 18px;
+    color:var(--dark-purple);
+   
+    margin-top: 10rem;
+  }
+  
+  
+  
+  .plan-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .plan-item {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 405px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-top:-6.5rem;
+  }
+  
+  .plan-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .plan-header {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+
+
+
+  
+  .plan-header h3 {
+    color: #3f51b5; 
+    margin: 0;
+  }
+  
+  .plan-details {
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .plan-details p {
+    color: #333;
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .plan-details ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .plan-details li {
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .cta-button09 {
+    display: inline-block;
+    background-color: #3f51b5; 
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;;
+    justify-content: center;
+  }
+  
+  .cta-button09:hover {
+    background-color: #3f51b5; 
+  }
+  .cta-button10 {
+    display: inline-block;
+    background-color: #3f51b5; 
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+    margin-top: 1.0rem;;
+  }
+  
+  .cta-button10:hover {
+    background-color: #4a0072;
+  }
+  .cta-button08 {
+    display: inline-block;
+    background-color: #3f51b5; 
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+    margin-top: 2.6rem;;
+    justify-content: center;
+  }
